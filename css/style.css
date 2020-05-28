@@ -1,0 +1,75 @@
+html,body{
+  /* width: 200vw; */
+  height: 100vh;
+  color: #fff;
+  font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+  background: url('https://i.pinimg.com/originals/e9/b0/c7/e9b0c71bd26af2d6f6c257cdbd01b9cf.jpg')no-repeat left center/cover;
+}
+
+#bfHead {
+  font-size: 2rem;
+}
+
+#bf1 {
+  backdrop-filter: none
+}
+
+#bf2 {
+  backdrop-filter: grayscale(1)
+}
+
+#bf3 {
+  backdrop-filter: brightness(1.5);
+}
+
+#bf4 {
+  backdrop-filter: blur(5px)
+}
+
+#bf5 {
+  backdrop-filter: contrast(0.8)
+}
+
+#bf6 {
+  backdrop-filter: invert(0.7)
+}
+
+#bf7 {
+  backdrop-filter: opacity(0.4)
+}
+
+#bf8 {
+  backdrop-filter: sepia(0.4)
+}
+
+#bf9 {
+  backdrop-filter: saturate(1.8)
+}
+
+#bf10 {
+  backdrop-filter: hue-rotate(120deg)
+}
+
+.container-fluid {
+  height: 100%;
+
+}
+
+.row {
+  position: absolute;
+  /* width: 200%; */
+}
+
+.col-12~.col-12, .col-lg~.col-lg {
+  height: 50%;
+  align-self: center;
+  border: 1px solid #fff;
+}
+
+
+.text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-shadow: 0 0 5px #000;
+}
