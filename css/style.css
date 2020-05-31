@@ -1,8 +1,9 @@
 html,body{
-  height: 100vh;
+  height: 100%;
   color: #fff;
   font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
   overflow: auto;
+  background: url('https://i.pinimg.com/originals/e9/b0/c7/e9b0c71bd26af2d6f6c257cdbd01b9cf.jpg')no-repeat left center/cover;
 }
 
 #bfHead {
@@ -52,26 +53,24 @@ html,body{
   border-right: 1px solid #fff;
 }
 
-.container-fluid {
-  /* width: 200%; */
-  height: 100%;
-  background: url('https://i.pinimg.com/originals/e9/b0/c7/e9b0c71bd26af2d6f6c257cdbd01b9cf.jpg')no-repeat left center/cover;
+.row {
+  width: 200vw;
+  flex-shrink: 0; /* 這行是破版關鍵 */
 }
 
+
 .col-md {
+  width: auto;
   height: 100%;
   border: 1px solid #fff;
   border-right: none;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 9%;
+  white-space: nowrap;
 }
 
-/* .col-12 {
-  flex: 1 1 100%;
-  max-width: 100%;
-  flex-direction: column;
-} */
+.col-12 {
+border-right: 1px solid #fff;
+flex-flow: column nowrap;
+}
 
 .text {
   position: absolute;
