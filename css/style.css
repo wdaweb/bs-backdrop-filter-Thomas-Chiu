@@ -53,7 +53,7 @@ html,body{
 }
 
 .container-fluid {
-  width: 200%;
+  /* width: 200%; */
   height: 100%;
   background: url('https://i.pinimg.com/originals/e9/b0/c7/e9b0c71bd26af2d6f6c257cdbd01b9cf.jpg')no-repeat left center/cover;
 }
